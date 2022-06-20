@@ -86,13 +86,16 @@ margin-right: 50px;
 }
 
 .main-photo {
+
+}
+
+.main-photo .container {
   background-color: #2F303A;
   height: 600px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4) ,rgba(47, 48, 58, 0.4)),
    url("/images/team_image.jpg");
-  background-size: cover;
-  ;
-}
+  background-size: cover;}
+
 .slogan {
   font-style: black;
   font-size: 44px;
@@ -165,7 +168,6 @@ h4 {
   font-size: 14px;
   line-height: 1.42;
   font-weight: bold;
-height: 16px;
 font-style: normal;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -203,6 +205,10 @@ text-align: center;
     margin-right: 30px;
   }
 
+  .team-card img {
+    border-radius: 0px;
+  }
+
 .team {
   background-color: rgba(245, 244, 250, 1);
 }
@@ -210,6 +216,7 @@ text-align: center;
   background-color: rgba(255, 255, 255, 1);
   width: 270px;
   height: 369px;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 h3 {
@@ -237,9 +244,9 @@ h3 {
 
 .project-card {
 width: 370px;
-height: 404px;
 background-color: rgba(255, 255, 255, 1);
   list-style-type: none;
+  border: 1px solid #EEEEEE;
 }
 
 .project-card:hover,
@@ -250,10 +257,20 @@ background-color: rgba(255, 255, 255, 1);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: block;
+  margin-block-start: 20px;
+  margin-block-end: 4px;
+  text-transform: none;
 }
 .project-card-object {
     line-height: 1.875;
     color: rgba(117, 117, 117, 1);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+    margin-block-start: 0px;
 }
 
 .footer {
