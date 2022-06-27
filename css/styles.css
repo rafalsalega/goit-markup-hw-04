@@ -28,7 +28,6 @@
   line-height: 1.19;
   text-decoration: none;
   color: black;
-  margin-left: 115px;
   margin-right: 53px;
 }
 
@@ -83,8 +82,14 @@ margin-right: 50px;
 .contacts-item a:hover,
 .contacts-item a:focus {
   color: rgba(33, 150, 243, 1);
+  stroke: rgba(33, 150, 243, 1);
 }
-
+.envelope-icon {
+  margin-right: 10px;
+}
+.smartphone-icon{
+  margin-right: 10px;
+}
 .main-photo {
   background-color: #2F303A;
   height: 600px;
@@ -154,6 +159,18 @@ border: 0;
   justify-content: space-between;
 
 }
+
+.features-box {
+  background-color: rgba(245, 244, 250, 1);
+  height: 120px;
+width: 270px;
+left: 215px;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .features h4 {
   width: 270px;
 }
@@ -214,10 +231,45 @@ text-align: center;
 .team-card {
   background-color: rgba(255, 255, 255, 1);
   width: 270px;
-  height: 369px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+.socials-list {
+list-style: none;
+display: flex;
+justify-content: space-between;
+margin-right: 32px;
+margin-left: 32px;
+margin-bottom: 18px;
+padding-bottom: 12px;
+
+}
+.socials-icon {
+  width: 20px;
+  height: 20px;
+  fill: rgba(175, 177, 184, 1);
+  ;
+}
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.socials-icon:hover,
+.socials-icon:focus {
+  fill: rgba(255, 255, 255, 1);
+
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: rgba(33, 150, 243, 1);
+    fill: rgba(255, 255, 255, 1);
+}
+
 h3 {
   line-height: 1.1875;
   font-family: 'Roboto';
@@ -275,7 +327,6 @@ background-color: rgba(255, 255, 255, 1);
 .footer {
   background-color: #2F303A;
   height: 252px;
-  width: 1200px;
   margin: 0 auto;
 }
 .address {
@@ -300,7 +351,6 @@ background-color: rgba(255, 255, 255, 1);
 }
 .footer .container {
   padding-top: 60px;
-  padding-left: 115px;
 }
 .section {
   padding: 94px 0px;
